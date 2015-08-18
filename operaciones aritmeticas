@@ -1,0 +1,29 @@
+
+//christian chahin vargas 
+// Este codigo ha sido generado por el modulo psexport 20140901-w32 de PSeInt
+// dado que dicho modulo se encuentra aun en desarrollo y en etapa experimental
+// puede que el codigo generado no sea completamente correcto. Si encuentra
+// errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+
+{
+int a,b,c,w,l,k;	
+	cout << "ingrese un numero" << endl;
+	cin >> a;
+	cout << "ingrese otro numero" << endl;
+	cin >> b;
+	c = a*b;
+	cout << "el resultado de la multiplicacion es " << c<<endl;
+	w = a+b;
+	cout << "el resultado de la suma es " << w<<endl;
+	l = a-b;
+	cout << "el resultado de la resta es " << l<<endl;
+	k = a/b;
+	cout << "el resultado de la division es " << k<<endl;
+	getch();
+}
