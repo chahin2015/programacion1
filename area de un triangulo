@@ -1,0 +1,22 @@
+
+//christian chahin vargaas
+// fecha:08/24/2015
+
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main() {
+	float m;
+	float n;
+	float v;
+	cout << "Ingresar la base del triangulo:" << endl;
+	cin >> n;
+	cout << "Ingresar la altura del triangulo:" << endl;
+	cin >> m;
+	cout << "el area del triangulo es:" << endl;
+	v = n*m/2;
+	cout << v << endl;
+	return 0;
+}
+
