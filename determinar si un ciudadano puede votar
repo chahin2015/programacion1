@@ -1,0 +1,21 @@
+// cuidadano.cpp : Defines the entry point for the console application.
+//christian chahin vargas
+//fecah:8 de septiembre
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+    {int a; 
+	cout<<"escribir edad";
+	cin>>a;
+    if (a>=18)
+       cout<<"uted puede votar";
+    else
+       cout<<"usted no puede votar";
+    getch ();
+	
+}
