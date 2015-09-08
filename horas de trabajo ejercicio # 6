@@ -1,0 +1,23 @@
+// horas de trabajo ejercicio numero 6.cpp : Defines the entry point for the console application.
+//christian chahin vargas
+//fecah:8 de septiembre
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+    {int a,l,p,r; 
+    cout<<"escriba sus horas de trabajo al mes:  ";
+       cin>>a;
+	cout<<"escriba el precio   ";
+       cin>>p;
+	   l=a*p;
+	   r=l*(1-0.13);
+    cout<<"su salario sera de:  "<<r<<endl;
+    getch ();
+	
+}
+
