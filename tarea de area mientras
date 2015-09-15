@@ -1,0 +1,11 @@
+Proceso tarea
+	Escribir 'cuantos triangulos quiere calcular'
+	Leer a
+	Mientras i<a Hacer
+		Escribir 'escribir base y altura'
+		Leer b,c
+		area<-(b*c)/2
+		Escribir area
+	FinMientras
+FinProceso
+
