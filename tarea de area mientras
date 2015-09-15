@@ -1,11 +1,29 @@
-Proceso tarea
-	Escribir 'cuantos triangulos quiere calcular'
-	Leer a
-	Mientras i<a Hacer
-		Escribir 'escribir base y altura'
-		Leer b,c
-		area<-(b*c)/2
-		Escribir area
-	FinMientras
-FinProceso
 
+// tarea12.cpp : Defines the entry point for the console application.
+
+// christian chahin
+
+#include "stdafx.h"
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+void main ()
+	{
+	float a;
+	float area;
+	float b;
+	float c;
+	float i;
+	cout << "cuantos triangulos quiere calcular" << endl;
+	cin >> a;
+	for (i=1;i<=a;i++) {
+		cout << "escribir base y altura" << endl;
+		cin >> b >> c;
+		area = (b*c)/2;
+		cout << "area" << area << endl;
+		}
+	getch();
+
+}
