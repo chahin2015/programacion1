@@ -1,0 +1,35 @@
+// formula cuadratica.cpp : Defines the entry point for the console application.
+//nombre: christian chahin
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main()
+{
+	float a,b,c,x,d;
+	cout<<"ingrese tres digitos";
+	cin>>a>>b>>c;
+	if (a!=0)
+    { 
+		d=b*b-4*a*c;
+		if (d==0)
+			cout<<"solucion unica"<<-b/(2*a);
+		else 
+			if (d>0)
+			{
+				cout<<"primer resultado "<<(-b+sqrt(d)/(2*a));
+				cout<<"segundo resultado"<<(-b-sqrt(d)/(2*a));
+			}
+			else
+			{
+				cout<<"primer resultado:"<<(-b/(2*a))<<"t"<<sqrt(-d)/(2*a)<<"i"<<endl;
+				cout<<"segundo resultado:"<<(-b/(2*a))<<"-"<<sqrt(-d)/(2*a)<<"i"<<endl;
+			}
+	}
+	else 
+		cout<<"solucion infinita";
+	getch();
+}
+
