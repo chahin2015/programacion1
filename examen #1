@@ -1,0 +1,29 @@
+// christian cahhin vargas
+
+#include "stdafx.h"
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+using namespace std;
+
+void main()
+{
+ int n,c,s,ban;
+ c=2;
+ s=0;
+ ban=1;
+ cout<<"ingrese un valor"<<endl;
+ cin>>n;
+  while(c<=n)
+{if(ban==0)
+{
+  s=s+c;
+  ban=1;}
+  else
+{
+  s=s-c;
+  ban=0;}
+  c++;}
+ cout<<"el valor de la sumatoria es"<<s;
+  getch();
+}
